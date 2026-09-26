@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darkward · Política de privacidad</title>
+<meta name="description" content="Política de privacidad de Darkward, el juego de Five Stack. Privacy policy. Política de privacidade.">
+<!-- Sin fuentes, scripts ni imágenes de terceros: esta página no le pasa datos a nadie -->
+<style>
+  :root {
+    --tinta: #0B0C18; --fondo: #0E1020; --panel: #1C1B2A; --borde: #4A3208;
+    --texto: #D6CDB6; --claro: #F3EEE2; --oro: #D9A441; --enlace: #6FB6DE; --tenue: #A8A4B5;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--fondo); color: var(--texto);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0 16px;
+  }
+  .hoja { max-width: 42rem; margin: 0 auto; padding-block: 28px 56px; }
+  header { border-bottom: 2px solid var(--borde); padding-bottom: 18px; margin-bottom: 8px; }
+  .marca { color: var(--tenue); font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 6px; }
+  h1 { color: var(--oro); font-size: 1.9rem; line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: 0.01em; }
+  nav { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  nav a {
+    color: var(--claro); text-decoration: none; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.06em;
+    padding: 6px 14px; border: 2px solid var(--borde); background: var(--panel); border-radius: 2px;
+  }
+  nav a[aria-current="true"] { border-color: var(--oro); color: var(--oro); }
+  section[lang] { padding-top: 12px; }
+  .js section[lang] { display: none; }
+  .js section[lang].activo { display: block; }
+  section[lang] + section[lang] { border-top: 2px solid var(--borde); margin-top: 32px; }
+  .js section[lang] + section[lang] { border-top: 0; margin-top: 0; }
+  .fecha { color: var(--tenue); font-size: 0.9rem; margin: 8px 0 20px; }
+  h2 { color: var(--claro); font-size: 1.15rem; margin: 30px 0 8px; }
+  h2 .n { color: var(--oro); margin-right: 0.35em; }
+  p, ul { margin: 0 0 12px; }
+  ul { padding-left: 1.2em; }
+  li { margin-bottom: 4px; }
+  strong { color: var(--claro); }
+  code { font-size: 0.85em; color: var(--tenue); overflow-wrap: anywhere; }
+  a { color: var(--enlace); overflow-wrap: anywhere; }
+  .resumen { background: var(--panel); border-left: 3px solid var(--oro); padding: 12px 16px 4px; margin-bottom: 8px; }
+  footer { color: var(--tenue); font-size: 0.85rem; margin-top: 40px; border-top: 2px solid var(--borde); padding-top: 14px; }
+</style>
+</head>
+<body>
+<div class="hoja">
+<header>
+  <p class="marca">Five Stack</p>
+  <h1 id="titulo">Darkward · Política de privacidad</h1>
+  <nav aria-label="Idioma / Language / Idioma">
+    <a href="#es" data-idioma="es">Español</a>
+    <a href="#en" data-idioma="en">English</a>
+    <a href="#pt" data-idioma="pt">Português</a>
+  </nav>
+</header>
+
+<section lang="es" id="politica-es" data-titulo="Darkward · Política de privacidad">
+  <p class="fecha">Última actualización: 26 de septiembre de 2026</p>
+  <p>Esta política explica qué datos trata <strong>Darkward</strong> (<code>com.fivestack.darkward</code>), el juego de Five Stack, y para qué.</p>
+
+  <h2><span class="n">1.</span>En resumen</h2>
+  <div class="resumen"><ul>
+    <li>No te pedimos cuenta, nombre, correo ni ningún dato personal.</li>
+    <li>No tenemos servidores propios. Tu partida se guarda en tu teléfono.</li>
+    <li>Los anuncios son opcionales y los muestra un proveedor externo, que sí trata algunos datos del dispositivo. Está explicado en la sección 3c.</li>
+    <li>Las compras las procesa Google Play. Nunca vemos tus datos de pago.</li>
+  </ul></div>
+
+  <h2><span class="n">2.</span>Quiénes somos</h2>
+  <p>Five Stack, un equipo independiente de cuatro personas. Para cualquier consulta sobre esta política: <a href="mailto:nihuforgegames@gmail.com">nihuforgegames@gmail.com</a>.</p>
+
+  <h2><span class="n">3.</span>Qué datos se tratan y para qué</h2>
+  <p><strong>a. Tu partida.</strong> El progreso, los objetos y los ajustes se guardan en tu dispositivo, cifrados. No se envían a ningún lado. Si desinstalás el juego, se borran.</p>
+  <p><strong>b. La hora de la red.</strong> Algunos temporizadores del juego (la fabricación del taller, el cofre diario, los límites semanales) usan la hora de internet para que no dependan del reloj del teléfono. Para eso el juego hace una consulta HTTPS a un servidor de Google. La consulta no lleva ningún dato del juego ni tuyo, pero, como toda conexión a internet, ese servidor ve la dirección IP.</p>
+  <p><strong>c. Los anuncios.</strong> El juego solo muestra anuncios recompensados, y solo cuando tocás un botón para verlos. Los provee <strong>Google AdMob</strong>, que puede recopilar:</p>
+  <ul>
+    <li>el identificador de publicidad del dispositivo,</li>
+    <li>la dirección IP, de la que se deduce una ubicación aproximada,</li>
+    <li>el modelo del dispositivo, el sistema operativo y el idioma,</li>
+    <li>cómo interactuás con el anuncio.</li>
+  </ul>
+  <p>Los usa para mostrar anuncios, medir su rendimiento y prevenir fraude. Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, el juego te pide tu consentimiento antes de mostrar anuncios personalizados. Cómo trata Google estos datos: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+  <p>En cualquier país podés restablecer o borrar tu identificador de publicidad desde los ajustes de Android, en <strong>Google → Anuncios</strong>.</p>
+  <p><strong>d. Las compras.</strong> Las compras dentro del juego las procesa <strong>Google Play</strong>. Nosotros no recibimos tu nombre, tu tarjeta ni tu correo: solo la confirmación de la compra, para entregarte lo que compraste y poder restaurarlo. La política de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+  <h2><span class="n">4.</span>Lo que no hacemos</h2>
+  <ul>
+    <li>No vendemos datos.</li>
+    <li>No usamos herramientas de analítica propias.</li>
+    <li>No accedemos a tu ubicación precisa, tus contactos, tus fotos, tu cámara ni tu micrófono.</li>
+  </ul>
+
+  <h2><span class="n">5.</span>Menores</h2>
+  <p>Darkward no está dirigido a menores de 13 años y no recopilamos a sabiendas datos de menores. Si sos madre, padre o tutor y creés que tu hijo o hija nos dio datos, escribinos y los borramos.</p>
+
+  <h2><span class="n">6.</span>Tus derechos</h2>
+  <p>Según las leyes de tu país (por ejemplo, el RGPD en Europa o la LGPD en Brasil), podés pedir acceso a tus datos, corregirlos o borrarlos. Como no guardamos datos tuyos en servidores propios, <strong>desinstalar el juego borra todo lo que el juego guardó</strong>. Para los datos que trata el proveedor de anuncios, podés usar los enlaces de la sección 3c o escribirnos y te ayudamos.</p>
+
+  <h2><span class="n">7.</span>Seguridad</h2>
+  <p>Las conexiones del juego van por HTTPS y la partida se guarda cifrada en el dispositivo.</p>
+
+  <h2><span class="n">8.</span>Cambios</h2>
+  <p>Si cambia esta política, publicamos la versión nueva en esta misma página con su fecha.</p>
+</section>
+
+<section lang="en" id="politica-en" data-titulo="Darkward · Privacy policy">
+  <p class="fecha">Last updated: September 26, 2026</p>
+  <p>This policy explains what data <strong>Darkward</strong> (<code>com.fivestack.darkward</code>), the game by Five Stack, processes and why.</p>
+
+  <h2><span class="n">1.</span>In short</h2>
+  <div class="resumen"><ul>
+    <li>We do not ask for an account, name, email or any personal data.</li>
+    <li>We have no servers of our own. Your progress is saved on your phone.</li>
+    <li>Ads are optional and served by a third-party provider, which does process some device data. See section 3c.</li>
+    <li>Purchases are processed by Google Play. We never see your payment details.</li>
+  </ul></div>
+
+  <h2><span class="n">2.</span>Who we are</h2>
+  <p>Five Stack, an independent team of four. For any question about this policy: <a href="mailto:nihuforgegames@gmail.com">nihuforgegames@gmail.com</a>.</p>
+
+  <h2><span class="n">3.</span>What data is processed and why</h2>
+  <p><strong>a. Your progress.</strong> Progress, items and settings are saved on your device, encrypted. They are not sent anywhere. Uninstalling the game deletes them.</p>
+  <p><strong>b. Network time.</strong> Some in-game timers (workshop crafting, the daily chest, weekly limits) use internet time so they do not depend on the phone's clock. To do this, the game makes an HTTPS request to a Google server. The request carries no game or personal data but, like any internet connection, that server sees the IP address.</p>
+  <p><strong>c. Ads.</strong> The game only shows rewarded ads, and only when you tap a button to watch one. They are provided by <strong>Google AdMob</strong>, which may collect:</p>
+  <ul>
+    <li>the device's advertising ID,</li>
+    <li>the IP address, from which an approximate location is inferred,</li>
+    <li>the device model, operating system and language,</li>
+    <li>how you interact with the ad.</li>
+  </ul>
+  <p>It uses them to serve ads, measure their performance and prevent fraud. If you are in the European Economic Area, the United Kingdom or Switzerland, the game asks for your consent before showing personalized ads. How Google handles this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+  <p>In any country, you can reset or delete your advertising ID in Android settings, under <strong>Google → Ads</strong>.</p>
+  <p><strong>d. Purchases.</strong> In-game purchases are processed by <strong>Google Play</strong>. We do not receive your name, card or email: only the purchase confirmation, so we can deliver what you bought and restore it. Google's policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+  <h2><span class="n">4.</span>What we do not do</h2>
+  <ul>
+    <li>We do not sell data.</li>
+    <li>We do not use analytics tools of our own.</li>
+    <li>We do not access your precise location, contacts, photos, camera or microphone.</li>
+  </ul>
+
+  <h2><span class="n">5.</span>Children</h2>
+  <p>Darkward is not directed at children under 13, and we do not knowingly collect data from children. If you are a parent or guardian and believe your child gave us data, contact us and we will delete it.</p>
+
+  <h2><span class="n">6.</span>Your rights</h2>
+  <p>Depending on the laws of your country (for example, the GDPR in Europe or the LGPD in Brazil), you can request access to your data, its correction or its deletion. Since we keep no data of yours on servers of our own, <strong>uninstalling the game deletes everything the game saved</strong>. For data handled by the ad provider, use the links in section 3c, or contact us and we will help.</p>
+
+  <h2><span class="n">7.</span>Security</h2>
+  <p>The game's connections use HTTPS, and your progress is stored encrypted on the device.</p>
+
+  <h2><span class="n">8.</span>Changes</h2>
+  <p>If this policy changes, we will publish the new version on this same page with its date.</p>
+</section>
+
+<section lang="pt" id="politica-pt" data-titulo="Darkward · Política de privacidade">
+  <p class="fecha">Última atualização: 26 de setembro de 2026</p>
+  <p>Esta política explica quais dados o <strong>Darkward</strong> (<code>com.fivestack.darkward</code>), o jogo da Five Stack, trata e para quê.</p>
+
+  <h2><span class="n">1.</span>Em resumo</h2>
+  <div class="resumen"><ul>
+    <li>Não pedimos conta, nome, e-mail nem nenhum dado pessoal.</li>
+    <li>Não temos servidores próprios. Seu progresso fica salvo no seu celular.</li>
+    <li>Os anúncios são opcionais e exibidos por um provedor externo, que trata alguns dados do dispositivo. Veja a seção 3c.</li>
+    <li>As compras são processadas pelo Google Play. Nunca vemos seus dados de pagamento.</li>
+  </ul></div>
+
+  <h2><span class="n">2.</span>Quem somos</h2>
+  <p>Five Stack, uma equipe independente de quatro pessoas. Para qualquer dúvida sobre esta política: <a href="mailto:nihuforgegames@gmail.com">nihuforgegames@gmail.com</a>.</p>
+
+  <h2><span class="n">3.</span>Quais dados são tratados e para quê</h2>
+  <p><strong>a. Seu progresso.</strong> O progresso, os itens e as configurações ficam salvos no seu dispositivo, criptografados. Não são enviados para lugar nenhum. Se você desinstalar o jogo, eles são apagados.</p>
+  <p><strong>b. O horário da rede.</strong> Alguns temporizadores do jogo (a fabricação na oficina, o baú diário, os limites semanais) usam o horário da internet para não depender do relógio do celular. Para isso, o jogo faz uma consulta HTTPS a um servidor do Google. A consulta não leva nenhum dado do jogo nem seu, mas, como toda conexão à internet, esse servidor vê o endereço IP.</p>
+  <p><strong>c. Os anúncios.</strong> O jogo só mostra anúncios premiados, e só quando você toca em um botão para assistir. Eles são fornecidos pelo <strong>Google AdMob</strong>, que pode coletar:</p>
+  <ul>
+    <li>o identificador de publicidade do dispositivo,</li>
+    <li>o endereço IP, do qual se deduz uma localização aproximada,</li>
+    <li>o modelo do dispositivo, o sistema operacional e o idioma,</li>
+    <li>como você interage com o anúncio.</li>
+  </ul>
+  <p>Ele os usa para exibir anúncios, medir seu desempenho e prevenir fraudes. Se você estiver no Espaço Econômico Europeu, no Reino Unido ou na Suíça, o jogo pede seu consentimento antes de mostrar anúncios personalizados. Como o Google trata esses dados: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+  <p>Em qualquer país, você pode redefinir ou excluir seu identificador de publicidade nas configurações do Android, em <strong>Google → Anúncios</strong>.</p>
+  <p><strong>d. As compras.</strong> As compras dentro do jogo são processadas pelo <strong>Google Play</strong>. Não recebemos seu nome, cartão nem e-mail: só a confirmação da compra, para entregar o que você comprou e poder restaurá-lo. A política do Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+  <h2><span class="n">4.</span>O que não fazemos</h2>
+  <ul>
+    <li>Não vendemos dados.</li>
+    <li>Não usamos ferramentas de análise próprias.</li>
+    <li>Não acessamos sua localização precisa, seus contatos, suas fotos, sua câmera nem seu microfone.</li>
+  </ul>
+
+  <h2><span class="n">5.</span>Menores</h2>
+  <p>O Darkward não é direcionado a menores de 13 anos, e não coletamos conscientemente dados de menores. Se você é pai, mãe ou responsável e acredita que seu filho ou filha nos forneceu dados, fale conosco e nós os apagaremos.</p>
+
+  <h2><span class="n">6.</span>Seus direitos</h2>
+  <p>De acordo com as leis do seu país (por exemplo, a LGPD no Brasil ou o RGPD na Europa), você pode pedir acesso aos seus dados, sua correção ou exclusão. Como não guardamos dados seus em servidores próprios, <strong>desinstalar o jogo apaga tudo o que o jogo salvou</strong>. Para os dados tratados pelo provedor de anúncios, use os links da seção 3c ou fale conosco e ajudamos você.</p>
+
+  <h2><span class="n">7.</span>Segurança</h2>
+  <p>As conexões do jogo usam HTTPS, e o progresso fica salvo criptografado no dispositivo.</p>
+
+  <h2><span class="n">8.</span>Alterações</h2>
+  <p>Se esta política mudar, publicaremos a nova versão nesta mesma página, com a data.</p>
+</section>
+
+<footer>Five Stack · <a href="mailto:nihuforgegames@gmail.com">nihuforgegames@gmail.com</a></footer>
+</div>
+
+<script>
+// Muestra un idioma por vez: el del enlace (#es, #en, #pt) o, si no hay, el del teléfono.
+// Sin JavaScript se ven los tres, uno debajo del otro. Las secciones no se llaman como el #idioma
+// para que el navegador no baje solo hasta ellas: la página arranca siempre desde el título.
+(function () {
+  var idiomas = ['es', 'en', 'pt'];
+  document.documentElement.classList.add('js');
+  function mostrar(id) {
+    idiomas.forEach(function (l) {
+      document.getElementById('politica-' + l).classList.toggle('activo', l === id);
+      document.querySelector('nav a[data-idioma="' + l + '"]').setAttribute('aria-current', l === id ? 'true' : 'false');
+    });
+    var s = document.getElementById('politica-' + id);
+    document.documentElement.lang = id;
+    document.getElementById('titulo').textContent = s.getAttribute('data-titulo');
+    document.title = s.getAttribute('data-titulo');
+  }
+  function elegido() {
+    var h = location.hash.replace('#', '');
+    if (idiomas.indexOf(h) >= 0) return h;
+    var n = (navigator.language || 'es').slice(0, 2).toLowerCase();
+    return idiomas.indexOf(n) >= 0 ? n : 'en';
+  }
+  window.addEventListener('hashchange', function () { mostrar(elegido()); window.scrollTo(0, 0); });
+  mostrar(elegido());
+})();
+</script>
+</body>
+</html>
